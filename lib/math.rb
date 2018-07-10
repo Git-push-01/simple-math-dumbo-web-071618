@@ -22,12 +22,16 @@ def modulo(num1, num2)
   mod = num1 % num2
   return mod
 
-  
+
 end
 
 def square_root(num)
+  squa = Math.sqrt(num)
+  return squa
 end
 
 def order_of_operation(num1, num2, num3, num4)
+  ordop = num1 + ((num2 * num3) / num4)
+  return ordop 
   #Hint:  __ + (( __ * __ ) / __ )
 end
